@@ -15,7 +15,7 @@ const employeeRouter = require("./routes/employeeRoutes.js")
 env.config()
 app.use(express.json());
 app.use(cors({ 
-    origin: 'http://localhost:3000', // Replace with your allowed origin(s)
+    origin: 'https://capstone-frontend-aymk.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true  
